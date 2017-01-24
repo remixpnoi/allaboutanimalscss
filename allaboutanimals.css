@@ -1,0 +1,69 @@
+
+<html><head><title>All about animals</title>
+<link href="jutajerohOct13.css" rel="stylesheet" type="text/css">
+</link>
+</head>
+<body>
+<h1>All about animals</h1>
+<a href="http://animalplanet.com">Animal Planet</a>
+<p>
+<hr />
+</p>
+
+<form id="myform" name="emailresults" action="mailto:hj75182n@pace.edu" method="post">
+<lablel for="animal">Name your favorite animal</label>
+<input name="animal" id="animal" type="text" size="20" value="lion" /> 
+<p></p>
+
+<div>
+Choose an animal category
+<select name="category" id="category"
+<option>fish</option>
+<optgroup label="mammals">Mammals
+<option>dogs</option>
+<option>cats</option>
+<option>ape</option>
+</optgroup>
+<option>birds</option>
+<option>snakes</option>
+<option>insects</option>
+</select>
+<br/>
+<img src="http://www.pageresource.com/wallpapers/wallpaper/bird-birds_449919.jpg" />
+</div>
+<p></p>
+
+
+<fieldset><legend>Dogs</legend>
+Pick a breed of dogs
+<select name="dog" id="dog" size="4" multiple>
+<option>American Husky</option>
+<option>German Shepard</option>
+<option>Poodle</option>
+<option>Chihuahua</option>
+<option>Pomeranian</option>
+<option>Puggle</option>
+</select>
+<p></p>
+
+<input type="radio" name="gender" value="male" id="male" />Male
+<input type="radio" name="gender1" value="female" id=femal" />Female
+
+</fieldset>
+<p></p>
+Which animals freak you out the most: 
+<input type="checkbox" name="ckwhale" />Whale
+<input type="checkbox" name="ckshark" />Shark
+<input type="checkbox" name="cksnakes" />Snakes
+<input type="checkbox" name="ckoctopus" />Octopus
+
+<p></p>
+For any suggestions or comments about my page, please write them in here
+<textarea name="suggest" size="30" rows="3" cols="17"></textarea>
+
+<p></p>
+<input type="submit" text="press" />
+</form>
+
+</body>
+</html>
